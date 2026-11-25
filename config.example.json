@@ -1,0 +1,17 @@
+{
+  "mode": "hint",
+  "wait_ms": 500,
+  "port": 8765,
+  "stage": 1,
+  "axis": "lr",
+  "left": {
+    "label": "左",
+    "key": "f",
+    "signs": ["←", "◀", "left", "larr", "<"]
+  },
+  "right": {
+    "label": "右",
+    "key": "j",
+    "signs": ["→", "▶", "right", "rarr", ">"]
+  }
+}
