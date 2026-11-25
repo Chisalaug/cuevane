@@ -1,5 +1,11 @@
 cuevane
 > 屏幕边上蹲个小风向标 🌬️——把藏在 canvas 里的线索读出来，该按哪个键，副屏上大字替你喊出来。
+>
+> **TL;DR (EN)** — A local-only cue reader for canvas-only tests. A Tampermonkey userscript hooks page audio, `watcher.py` reads the screen pixels, `server.py` prints a big colored F / J / NONE verdict and can optionally press the key for you. No DevTools, no debugger, no cloud, no page code changes.
+
+**Keywords** — canvas · PsychoJS / PsychoPy · screen reading · pixel state to semantic event · local event bus · Tampermonkey userscript · stimulus detection · keyboard hint & auto-press · accessibility (a11y) · Windows · Python
+
+![License](https://img.shields.io/badge/license-MIT-blue)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python](https://img.shields.io/badge/python-3.11%2B-green)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
